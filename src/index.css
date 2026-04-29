@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -16,7 +16,7 @@
     --popover: 220 15% 8%;
     --popover-foreground: 0 0% 96%;
 
-    --primary: 142 70% 35%;
+    --primary: 28 65% 40%;
     --primary-foreground: 0 0% 96%;
 
     --secondary: 220 15% 12%;
@@ -25,7 +25,7 @@
     --muted: 220 15% 10%;
     --muted-foreground: 220 10% 55%;
 
-    --accent: 45 80% 55%;
+    --accent: 38 85% 58%;
     --accent-foreground: 220 20% 5%;
 
     --destructive: 0 84% 60%;
@@ -33,18 +33,18 @@
 
     --border: 220 15% 18%;
     --input: 220 15% 12%;
-    --ring: 142 70% 35%;
+    --ring: 28 65% 40%;
 
     --radius: 0.5rem;
 
     --sidebar-background: 220 15% 8%;
     --sidebar-foreground: 0 0% 96%;
-    --sidebar-primary: 142 70% 35%;
+    --sidebar-primary: 28 65% 40%;
     --sidebar-primary-foreground: 0 0% 96%;
     --sidebar-accent: 220 15% 12%;
     --sidebar-accent-foreground: 0 0% 96%;
     --sidebar-border: 220 15% 18%;
-    --sidebar-ring: 142 70% 35%;
+    --sidebar-ring: 28 65% 40%;
   }
 
   .light {
@@ -93,7 +93,11 @@
   }
 
   html {
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-family:
+      "Inter",
+      system-ui,
+      -apple-system,
+      sans-serif;
   }
 
   body {
